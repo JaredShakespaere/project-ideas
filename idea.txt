@@ -1,0 +1,64 @@
+Idea list
+
+1. ShakespaereFit App
+    
+    Most people have a hard time knowing what to do when they
+    get to the gym and eventually it even detures them from
+    going to the gym all together. This most often leads to 
+    living an unhealthy lifestyle and could possibly lead to 
+    chronic disease in the future. 
+
+    The ShakespaereFit app eliminates this issue all together.
+    the user inputs all of their objective data, like body weight,
+    resting heartrate, height, age, and more. By using this data, 
+    the ShakespaereFit app will automatically produce a workout 
+    for you with the exact weights and reps you should use. Are you a beginner?
+    No worries, this app will tailor all the workouts to your 
+    experience level and gradually progress your workouts until
+    you've looked and felt the best you ever have.
+
+2.  Never Miss A Swing
+
+    Are you an avid sports ethusiast, but always seem to miss your 
+    teams play? Or maybe you would like to see your teams play but 
+    never know what channel they are playing on?
+
+    The Never Miss A Swing app is a quick site to help you on 
+    the most important day of your life. Gameday. Simply login and
+    you will imediately see when your team plays next, where, and 
+    the average cost of tickets for that game. 
+
+3. MCAT study help
+
+    Are you an aspiring doctor, but study for the MCAT is just too
+    daunting? Or maybe you want to go hang out with some friends, but
+    your books are calling your name?
+
+    MCAT study help to the rescue! Using spaced repetition techniques,
+    This study help app will get you closer to tagging Dr. to the front 
+    of your name. With its database of mcat flashcards, you can study from 
+    home or on the go. Are you having a hard time memorizing all of the amino
+    aicds? No problem. This app will show you the cards you are having trouble 
+    with more often than the ones you have down pat. 
+    
+4. Record Collector
+    
+    Collecting records has become more and more popular over the last
+    few years. Sometimes you have the urge to buy a record, but you dont
+    know where to get it, how much it will cost, or even what record to buy.
+
+    This one stop shop will take care of all of the heavy lifting. When creating
+    an account, you will enter objective data that will help narrow your search. 
+    Based on your data, you will be recommended records to buy, where to buy them 
+    and how much they cost. Oh you want to sell some records? We got you. This app
+    will show you where to sell you record and how much you can get for it!
+
+5. Weight loss buddy
+
+    Setting some new year resolutions? Trying to lose some weight? Pair the weight loss
+    buddy with your gym/diet habits and see your layers shed! The weight 
+
+    The weight loss buddy will track your weight loss journey and your daily
+    calorie consumption. It will tell you how many calories you need to burn that day in
+    exercise and alert you when you are close to a user customized milestone goal!
+
