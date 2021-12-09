@@ -1,0 +1,11 @@
+Never Miss a Swing
+
+Pitch/Idea: Create a web app that allows users to view when and where their favorite sports teams are playing. Also allows them to see how much tickets are for those games.
+
+MVP:
+Users can select a sport
+Users can select a team
+Users can create a favorite teams list
+Users can add teams to the list
+Users can delete teams from the list
+Users can log in
