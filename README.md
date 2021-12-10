@@ -1,1 +1,1 @@
-# project-ideas
+# Capstone Project- MVP
