@@ -1,0 +1,13 @@
+Tables-columns:
+- users
+    -user_id
+    - profile picture
+    - email
+    - first name
+    - last name
+    - password
+    - favorited teams
+-favorites
+    - user_id
+    - team_id (from API call)
+  

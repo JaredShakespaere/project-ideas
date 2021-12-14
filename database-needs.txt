@@ -1,0 +1,11 @@
+What the database needs:
+
+Users email
+users password
+user first name
+user last name 
+user profile picture
+teams that a user adds to their favorite teams list
+list of sports
+list of teams for each sport
+team logo

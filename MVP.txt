@@ -1,6 +1,11 @@
 Never Miss a Swing
 
-Pitch/Idea: Create a web app that allows users to view when and where their favorite sports teams are playing. Also allows them to see how much tickets are for those games.
+Pitch/Idea: 
+
+Create a web app that allows users to view 
+when and where their favorite sports teams are playing. 
+Also allows them to see how much tickets are for those games, 
+As well as their current standings.
 
 MVP:
 Users can log in using unique credentials
@@ -12,4 +17,49 @@ Users can delete teams from the list
 When favorite team is clicked, the next game date and time will appear as well as stats
 Users can update/change password
 Users can add/delete profile picture
+--------------------------------------------------------------------------------------------
+MVP Description:
 
+Login Page
+
+A user will type in the website name using the unique url (like nevermissaswing.com)
+when they are directed to the website, they will see the login screen. The user will
+need to create an account. After their account is created, they can log in. Behind the 
+log in fields, there will be a rotating basketball that fades into a baseball, which 
+fades into a football and cycles through those. 
+
+Main Page 
+
+I want the main page of the app to be very clean and concise. The only things i want on the
+main page is a nav bar and a carosel of the teamballs.
+
+Teamballs
+
+I definitely want the favorited teams to be held in containers in the shape of the ball 
+that sport uses. When you click on one of the teamballs, the information will change to
+other information about that team. It will carosel through like 5 bits of informations.
+I want the teamballs to be 3-D. I want there to be some visual feedback if the team is 
+currently playing.
+
+Teamballs information
+
+The information that I want the teamballs to hold is definitely subject to change. I want 
+the first bit of info that the teamballs hold to be the teams nickname. Second, if they are 
+currently playing, then the current score of the game. Fourth, their record. Fifth, their next 
+game. 
+
+------------------------------------------------------------------------------------------------
+Additional Features Description:
+
+Second Page
+
+A sixth piece of data that would go on the teamballs would be called "more info" with a button. If the user 
+clicks on the button, they will be redirected to a secondary page with more info about that team. The secondary 
+page will have a play by play section, it will have stats about current players for that team, and team stats from
+years prior.
+
+Additional sports
+
+Instead of just having information from the NBA, users can choose from different sports like baseball, football, 
+and hockey.
+------------------------------------------------------------------------------------------------
