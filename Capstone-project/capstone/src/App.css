@@ -1,20 +1,73 @@
+@import url(https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css);
+
 body {
+    display: flex;
     background-color: #fafafa;
     background-image: url(../public/basketballCourt.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-content: center;
     width: 100%;
-    align-items: center;
     height: 100vh;
+    align-items: center;
+    padding: 101px;
+    /* border: whitesmoke thick dotted; */
+}
+.login-component{
+    min-width: 218px;
+}
+.login-component h1 {
+    position: absolute;
+    border-bottom: whitesmoke 1px solid;
+    margin-bottom: 30px;
+    top: 11rem;
+}
+ .mb-3 {
+     width: 100%;
+     overflow: hidden;
+     font-size: 20px;
+     padding-top: 8px 0;
+    border-bottom: solid 1px gray;
+}
+.mb-3 i {
+    width: 26px;
+    float: left;
+    text-align: center;
+}
+.mb-3 input{
+    border: none;
+    outline: none;
+    background: none;
+    color: whitesmoke;
+    font-size: 18px;
+    text-align: left;
+    padding-left: 29px;
+}
+#email-icon {
+    position: absolute;
+    top: 15.5rem;
+}
+#password-icon{
+    position: absolute;
+    top: 19rem;
+}
+.icon-attribution{
+    /* border: whitesmoke thick dotted; */
+    position: absolute;
+    bottom: 0;
+    left: 101px;
+    
+}
+.icon-attribution a {
+    text-decoration: none;
+    color: black;
 }
 
 
-.box {
-    border: 1px solid purple;
-    background-color: gold;
+
+.p-4{
+    
+    color: whitesmoke;
+
 }
 
 .g-btn {
@@ -27,7 +80,4 @@ body {
 .g-btn > div > svg {
     width: 40px !important;
     height: 38px !important;
-}
-.mb-3{
-    outline: none;
 }

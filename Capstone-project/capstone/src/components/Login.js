@@ -4,6 +4,8 @@ import { Alert, Form } from 'react-bootstrap';
 import { Button } from 'react-bootstrap';
 import { useUserAuth } from '../context/AuthContext';
 import GoogleButton from 'react-google-button';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSpinner, faEnvelope, faKey} from '@fortawesome/free-solid-svg-icons';
 
 const Login = () => {
 	const [error, setError] = useState('');
@@ -36,11 +38,12 @@ const Login = () => {
 
 	return (
 		<>
-			<div className='p-4 box'>
-				<h2 className='mb-3'> </h2>
+			<div className='p-4 box login-component'>
 				{error && <Alert variant='danger'>{error}</Alert>}
 				<Form onSubmit={handleSubmit}>
+					<h1>Login</h1>
 					<Form.Group className='mb-3' controlId='formBasicEmail'>
+						<FontAwesomeIcon icon={faEnvelope} className='login-icon' id='email-icon'/>
 						<Form.Control
 							type='email'
 							placeholder='Email Address'
@@ -49,6 +52,7 @@ const Login = () => {
 					</Form.Group>
 
 					<Form.Group className='mb-3' controlId='form BasicPassword'>
+						<FontAwesomeIcon icon={faKey} className='login-icon' id='password-icon'/>
 						<Form.Control
 							type='password'
 							placeholder='Password'
@@ -58,7 +62,7 @@ const Login = () => {
 
 					<div className='d-grid gap-2'>
 						<Button variant='primary' type='Submit'>
-							<i class='fa fa-bars'>bars</i>
+							<i>Sign In</i>
 						</Button>
 					</div>
 				</Form>
@@ -70,9 +74,9 @@ const Login = () => {
 						onClick={handleGoogleSignIn}
 					/>
 				</div>
-			</div>
-			<div className='p-4 box mt-3 text-center'>
-				Don't have an account? <Link to='/Signup'>Sign Up</Link>
+				<div className='p-4 box mt-3 text-center'>
+					Don't have an account? <Link to='/Signup'>Sign Up</Link>
+				</div>
 			</div>
 		</>
 	);
