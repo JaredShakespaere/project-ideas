@@ -5,7 +5,12 @@ import { Button } from 'react-bootstrap';
 import { useUserAuth } from '../context/AuthContext';
 import GoogleButton from 'react-google-button';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSpinner, faEnvelope, faKey} from '@fortawesome/free-solid-svg-icons';
+import {
+	faSpinner,
+	faEnvelope,
+	faKey,
+	faArrowRight,
+} from '@fortawesome/free-solid-svg-icons';
 
 const Login = () => {
 	const [error, setError] = useState('');
@@ -41,9 +46,12 @@ const Login = () => {
 			<div className='p-4 box login-component'>
 				{error && <Alert variant='danger'>{error}</Alert>}
 				<Form onSubmit={handleSubmit}>
-					<h1>Login</h1>
 					<Form.Group className='mb-3' controlId='formBasicEmail'>
-						<FontAwesomeIcon icon={faEnvelope} className='login-icon' id='email-icon'/>
+						<FontAwesomeIcon
+							icon={faEnvelope}
+							className='login-icon'
+							id='email-icon'
+						/>
 						<Form.Control
 							type='email'
 							placeholder='Email Address'
@@ -52,7 +60,11 @@ const Login = () => {
 					</Form.Group>
 
 					<Form.Group className='mb-3' controlId='form BasicPassword'>
-						<FontAwesomeIcon icon={faKey} className='login-icon' id='password-icon'/>
+						<FontAwesomeIcon
+							icon={faKey}
+							className='login-icon'
+							id='password-icon'
+						/>
 						<Form.Control
 							type='password'
 							placeholder='Password'
@@ -62,18 +74,14 @@ const Login = () => {
 
 					<div className='d-grid gap-2'>
 						<Button variant='primary' type='Submit'>
-							<i>Sign In</i>
+							<FontAwesomeIcon
+								icon={faArrowRight}
+								className='button-icon'
+								id='arrow-icon'
+							/>
 						</Button>
 					</div>
 				</Form>
-				<hr />
-				<div>
-					<GoogleButton
-						className='g-btn'
-						type='dark'
-						onClick={handleGoogleSignIn}
-					/>
-				</div>
 				<div className='p-4 box mt-3 text-center'>
 					Don't have an account? <Link to='/Signup'>Sign Up</Link>
 				</div>
