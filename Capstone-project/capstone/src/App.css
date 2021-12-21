@@ -1,5 +1,4 @@
-@import url(https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css);
-
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 body {
 	display: flex;
 	background-color: #fafafa;
@@ -21,12 +20,19 @@ body {
 	margin-bottom: 30px;
 	top: 10rem;
 }
+#formBasicEmail.form-control {
+    background: none;
+}
+#formBasicPassword.form-control {
+    background: none;
+}
 .mb-3 {
 	width: 100%;
 	overflow: hidden;
 	font-size: 20px;
 	padding-top: 8px 0;
 	border-bottom: solid 1px gray;
+    background: none;
 }
 .mb-3 i {
 	width: 26px;
@@ -51,13 +57,20 @@ body {
 	top: 21rem;
 }
 .btn {
-	width: 50px;
-	height: 50px;
-	border-radius: 50%;
-	background-color: transparent;
-	border: gray;
-	opacity: 1;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: gray;
+    opacity: 1;
+}
+#login-btn{
     margin-left: 109px;
+    
+}
+#login-btn Button:hover {
+    border-radius: 50%;
+    background-color: gray;
+
 }
 .icon-attribution {
 	/* border: whitesmoke thick dotted; */
@@ -72,4 +85,32 @@ body {
 .p-4 {
 	color: whitesmoke;
 }
-
+#sign-up-title {
+    position: absolute;
+    top: 15rem;
+    left: 13.7rem;
+    border: none;
+    font-family: 'abel';
+    font-size: 20px;
+    font-weight: bold;
+} 
+#sign-up-btn {
+    display: flex;
+    border-radius: 5px;
+    width: 100%;
+    /* border: dotted whitesmoke 5px; */
+    justify-content: center;
+}
+#sign-up-btn Button {
+    color: whitesmoke;
+    width: 100%;
+    font-family: 'abel';
+    font-size: 20px;
+}
+#sign-up-btn Button:hover {
+    background-color: gray;
+}
+.sign-up-component{
+    display: flex;
+    /* border: whitesmoke thick dotted; */
+}

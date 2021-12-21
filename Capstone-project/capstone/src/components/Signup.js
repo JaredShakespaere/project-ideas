@@ -3,6 +3,12 @@ import { Link, useNavigate } from 'react-router-dom';
 import { Form } from 'react-bootstrap';
 import { Button, Alert } from 'react-bootstrap';
 import { useUserAuth } from '../context/AuthContext';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+	faEnvelope,
+	faKey,
+	faArrowRight,
+} from '@fortawesome/free-solid-svg-icons';
 
 const Signup = () => {
 	const [email, setEmail] = useState('');
@@ -24,10 +30,17 @@ const Signup = () => {
 	return (
 		<>
 			<div className='p-4 box'>
-				<h2 className='mb-3'>Sign Up</h2>
+				<h2 className='mb-3' id='sign-up-title'>
+					Sign Up
+				</h2>
 				{error && <Alert variant='danger'> {error} </Alert>}
 				<Form onSubmit={handleSubmit}>
 					<Form.Group className='mb-3' controlId='formBasicEmail'>
+						<FontAwesomeIcon
+							icon={faEnvelope}
+							className='login-icon'
+							id='email-icon'
+						/>
 						<Form.Control
 							type='email'
 							placeholder='Email Address'
@@ -37,7 +50,12 @@ const Signup = () => {
 						/>
 					</Form.Group>
 
-					<Form.Group className='mb-3' controlId='form BasicPassword'>
+					<Form.Group className='mb-3' controlId='formBasicPassword'>
+						<FontAwesomeIcon
+							icon={faKey}
+							className='login-icon'
+							id='password-icon'
+						/>
 						<Form.Control
 							type='password'
 							placeholder='Password'
@@ -47,9 +65,13 @@ const Signup = () => {
 						/>
 					</Form.Group>
 
-					<div className='d-grid gap-2'>
-						<Button disable={handleSubmit} variant='primary' type='Submit'>
-							Sign Up!
+					<div className='d-grid gap-2' id='sign-up-btn'>
+						<Button variant='primary' type='Submit'>
+							<FontAwesomeIcon
+								icon={faArrowRight}
+								className='button-icon'
+								id='arrow-icon'
+							/>
 						</Button>
 					</div>
 				</Form>
