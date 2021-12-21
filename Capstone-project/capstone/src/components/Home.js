@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/Home.css';
 import { Button } from 'react-bootstrap';
 import { useUserAuth } from '../context/AuthContext';
 
@@ -15,14 +16,7 @@ export default function Home() {
 
 	return (
 		<>
-			<div className='p-4 box mt-3 text-center'>
-				Hello! <br></br>Welcome to the Homepage <br /> {user && user.email}
-			</div>
-			<div className='d-grid gap-2'>
-				<Button variant='primary' onClick={handleLogOut}>
-					Log out
-				</Button>
-			</div>
+			<div className='homepage'>Homepage</div>
 		</>
 	);
 }

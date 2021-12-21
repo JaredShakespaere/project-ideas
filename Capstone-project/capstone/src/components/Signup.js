@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import '../styles/LoginSignUp.css';
 import { Link, useNavigate } from 'react-router-dom';
 import { Form } from 'react-bootstrap';
 import { Button, Alert } from 'react-bootstrap';
@@ -29,7 +30,7 @@ const Signup = () => {
 	};
 	return (
 		<>
-			<div className='p-4 box'>
+			<div className='p-4 box body'>
 				<h2 className='mb-3' id='sign-up-title'>
 					Sign Up
 				</h2>

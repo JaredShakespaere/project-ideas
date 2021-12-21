@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import '../styles/LoginSignUp.css';
 import { Link, useNavigate } from 'react-router-dom';
 import { Alert, Form } from 'react-bootstrap';
 import { Button } from 'react-bootstrap';
@@ -32,7 +33,7 @@ const Login = () => {
 
 	return (
 		<>
-			<div className='p-4 box'>
+			<div className='p-4 box body'>
 				{error && <Alert variant='danger'>{error}</Alert>}
 				<Form onSubmit={handleSubmit}>
 					<Form.Group className='mb-3' controlId='formBasicEmail'>
